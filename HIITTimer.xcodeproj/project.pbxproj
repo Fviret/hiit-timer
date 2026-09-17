@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11343D33CDBB65C31B6EF364 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF7BF7DCF13C7C24846E23 /* Route.swift */; };
+		1B9C01B87DC5FD9D58545F20 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B43DF5BDE843756EBD33E /* SessionListView.swift */; };
+		2E4E878EC75E3C024EAC162B /* RoundsStepperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25749335D1EA0B6F2DF99973 /* RoundsStepperCard.swift */; };
+		35211677C88BA5C58A15C015 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0D9A4B5220310713E5191 /* SessionStore.swift */; };
+		4C9ED67055998B2F8CEEA528 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207529FF942C68FED7FC2F73 /* SoundManager.swift */; };
+		536CBF2C32D8F46ABF273CAE /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD52334433DDDD17BAA3D99 /* SetupView.swift */; };
+		5A7307F3ECF0E45DC062E0DF /* HIITTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71216A0FEBF59F550B0D849 /* HIITTimerApp.swift */; };
+		60FB04BB436FA3839B6FD906 /* WorkoutTimerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4CC898E7B2CBAA4CCBD00 /* WorkoutTimerEngine.swift */; };
+		6C48BFAAD2D426D80F2EC4B2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF464DCEFCB4B13FDBB04D /* RootView.swift */; };
+		957C788BADCFDE707F4EEDD6 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E8BAA9CEA7E8CBE4F78E4 /* ProgressRingView.swift */; };
+		A14169880528BD15C1C4E06F /* DurationStepperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1239FD9DDF300F33F3F2A32F /* DurationStepperCard.swift */; };
+		ACAF0B9134FBC3F07611E094 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F86ACE235979FAFA518783 /* Theme.swift */; };
+		DDFFE432F5AD79ED59C80449 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C886AD999AF4050A423B3 /* TimerView.swift */; };
+		F0BED64BBC06B50B24442E5F /* WorkoutPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C049B7AF48C00C5650FE54 /* WorkoutPhase.swift */; };
+		FB7DBFD74EF42E178EA05FE6 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51BBA09A51BF0FA2EBF53E /* WorkoutSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CD52334433DDDD17BAA3D99 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		1239FD9DDF300F33F3F2A32F /* DurationStepperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationStepperCard.swift; sourceTree = "<group>"; };
+		207529FF942C68FED7FC2F73 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		25749335D1EA0B6F2DF99973 /* RoundsStepperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsStepperCard.swift; sourceTree = "<group>"; };
+		291E8BAA9CEA7E8CBE4F78E4 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		373B43DF5BDE843756EBD33E /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		412A557AE20F46F988E7A7BC /* HIITTimer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HIITTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0D9A4B5220310713E5191 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		66C049B7AF48C00C5650FE54 /* WorkoutPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPhase.swift; sourceTree = "<group>"; };
+		89A4CC898E7B2CBAA4CCBD00 /* WorkoutTimerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerEngine.swift; sourceTree = "<group>"; };
+		89F86ACE235979FAFA518783 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9A8C886AD999AF4050A423B3 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9BAF7BF7DCF13C7C24846E23 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		BA51BBA09A51BF0FA2EBF53E /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		BEDF464DCEFCB4B13FDBB04D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C71216A0FEBF59F550B0D849 /* HIITTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITTimerApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F79FBEA6BC54937735A93E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412A557AE20F46F988E7A7BC /* HIITTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EFC5F50BAB3A959982C54F9 = {
+			isa = PBXGroup;
+			children = (
+				AF370565583BE2AA5FA143D5 /* HIITTimer */,
+				0F79FBEA6BC54937735A93E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F027ACD750620B86370DC6F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C71216A0FEBF59F550B0D849 /* HIITTimerApp.swift */,
+				E7852F72FC7E3FB8AA48CB4C /* Audio */,
+				DF8B601AE6EF57766147576C /* Models */,
+				82A75F12072979A0E29E4377 /* Theme */,
+				694912D19B7A47BD3C6A3D09 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		694912D19B7A47BD3C6A3D09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF464DCEFCB4B13FDBB04D /* RootView.swift */,
+				373B43DF5BDE843756EBD33E /* SessionListView.swift */,
+				0CD52334433DDDD17BAA3D99 /* SetupView.swift */,
+				9A8C886AD999AF4050A423B3 /* TimerView.swift */,
+				868785EC1BC880891780366A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82A75F12072979A0E29E4377 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				89F86ACE235979FAFA518783 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		868785EC1BC880891780366A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1239FD9DDF300F33F3F2A32F /* DurationStepperCard.swift */,
+				291E8BAA9CEA7E8CBE4F78E4 /* ProgressRingView.swift */,
+				25749335D1EA0B6F2DF99973 /* RoundsStepperCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AF370565583BE2AA5FA143D5 /* HIITTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3F027ACD750620B86370DC6F /* Sources */,
+			);
+			path = HIITTimer;
+			sourceTree = "<group>";
+		};
+		DF8B601AE6EF57766147576C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF7BF7DCF13C7C24846E23 /* Route.swift */,
+				4BC0D9A4B5220310713E5191 /* SessionStore.swift */,
+				66C049B7AF48C00C5650FE54 /* WorkoutPhase.swift */,
+				BA51BBA09A51BF0FA2EBF53E /* WorkoutSession.swift */,
+				89A4CC898E7B2CBAA4CCBD00 /* WorkoutTimerEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E7852F72FC7E3FB8AA48CB4C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				207529FF942C68FED7FC2F73 /* SoundManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3E16F05521A5E68499A374 /* HIITTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F50F6F70340BFE65BCD54D5 /* Build configuration list for PBXNativeTarget "HIITTimer" */;
+			buildPhases = (
+				9AF6A01829A075BD38F74769 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIITTimer;
+			packageProductDependencies = (
+			);
+			productName = HIITTimer;
+			productReference = 412A557AE20F46F988E7A7BC /* HIITTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FC1F9197F71DEA5D726EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1A3E16F05521A5E68499A374 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84371093B5BD1CA25C538D47 /* Build configuration list for PBXProject "HIITTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3EFC5F50BAB3A959982C54F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0F79FBEA6BC54937735A93E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3E16F05521A5E68499A374 /* HIITTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF6A01829A075BD38F74769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14169880528BD15C1C4E06F /* DurationStepperCard.swift in Sources */,
+				5A7307F3ECF0E45DC062E0DF /* HIITTimerApp.swift in Sources */,
+				957C788BADCFDE707F4EEDD6 /* ProgressRingView.swift in Sources */,
+				6C48BFAAD2D426D80F2EC4B2 /* RootView.swift in Sources */,
+				2E4E878EC75E3C024EAC162B /* RoundsStepperCard.swift in Sources */,
+				11343D33CDBB65C31B6EF364 /* Route.swift in Sources */,
+				1B9C01B87DC5FD9D58545F20 /* SessionListView.swift in Sources */,
+				35211677C88BA5C58A15C015 /* SessionStore.swift in Sources */,
+				536CBF2C32D8F46ABF273CAE /* SetupView.swift in Sources */,
+				4C9ED67055998B2F8CEEA528 /* SoundManager.swift in Sources */,
+				ACAF0B9134FBC3F07611E094 /* Theme.swift in Sources */,
+				DDFFE432F5AD79ED59C80449 /* TimerView.swift in Sources */,
+				F0BED64BBC06B50B24442E5F /* WorkoutPhase.swift in Sources */,
+				FB7DBFD74EF42E178EA05FE6 /* WorkoutSession.swift in Sources */,
+				60FB04BB436FA3839B6FD906 /* WorkoutTimerEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B4B6F40C64AA52B6A038A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = HIITTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floviret.hiittimer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF233FAE9E2FC78848C6D2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFE27BBE4FDBBABDAF448C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D052694E81F06D3D9908B0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = HIITTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floviret.hiittimer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F50F6F70340BFE65BCD54D5 /* Build configuration list for PBXNativeTarget "HIITTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4B6F40C64AA52B6A038A5D /* Debug */,
+				D052694E81F06D3D9908B0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84371093B5BD1CA25C538D47 /* Build configuration list for PBXProject "HIITTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF233FAE9E2FC78848C6D2E5 /* Debug */,
+				BFE27BBE4FDBBABDAF448C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FC1F9197F71DEA5D726EE9 /* Project object */;
+}
