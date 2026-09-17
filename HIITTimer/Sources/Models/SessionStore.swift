@@ -5,9 +5,10 @@ final class SessionStore: ObservableObject {
     @Published private(set) var sessions: [WorkoutSession] = []
 
     private let defaultsKey = "com.floviret.hiittimer.sessions"
-    private let defaults = UserDefaults.standard
+    private let defaults: UserDefaults
 
-    init() {
+    init(defaults: UserDefaults = .standard) {
+        self.defaults = defaults
         load()
     }
 

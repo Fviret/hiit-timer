@@ -39,6 +39,17 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0FE0CC19B0D2823D83D960F9"
+               BuildableName = "HIITTimerTests.xctest"
+               BlueprintName = "HIITTimerTests"
+               ReferencedContainer = "container:HIITTimer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

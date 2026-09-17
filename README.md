@@ -53,9 +53,22 @@ Theme/     Couleurs et dégradés centralisés
 
 Le projet Xcode (`HIITTimer.xcodeproj`) est généré à partir de [`project.yml`](project.yml) via [XcodeGen](https://github.com/yonaskolb/XcodeGen), plutôt qu'écrit à la main — plus simple à versionner et à faire évoluer sans risque de corrompre le fichier de projet.
 
+## Tests
+
+Le moteur de chrono ([`WorkoutTimerEngine`](HIITTimer/Sources/Models/WorkoutTimerEngine.swift)), le modèle de séance et la persistence ([`SessionStore`](HIITTimer/Sources/Models/SessionStore.swift)) sont couverts par des tests unitaires dans [`HIITTimerTests`](HIITTimerTests) — transitions de phase, pause/reprise, calcul de durée, sauvegarde/mise à jour/suppression d'une séance.
+
+```bash
+xcodebuild test \
+  -project HIITTimer.xcodeproj \
+  -scheme HIITTimer \
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
+```
+
+(ou `Cmd+U` dans Xcode)
+
 ## Intégration continue
 
-Chaque push sur `main` déclenche un build automatique du projet sur un runner macOS ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)), pour repérer immédiatement toute régression de compilation.
+Chaque push sur `main` déclenche, sur un runner macOS ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) : un build du projet, puis l'exécution de la suite de tests unitaires — pour repérer immédiatement toute régression de compilation ou de comportement.
 
 ## Lancer le projet
 

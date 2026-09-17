@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		11343D33CDBB65C31B6EF364 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF7BF7DCF13C7C24846E23 /* Route.swift */; };
+		195F48AE02A15519C186B5A6 /* SessionStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136E8A5B305C2495730FE670 /* SessionStoreTests.swift */; };
 		1B9C01B87DC5FD9D58545F20 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B43DF5BDE843756EBD33E /* SessionListView.swift */; };
+		1D2B726D05F57445381A1F20 /* WorkoutTimerEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B870EEEF2CF3F8C8E4483B21 /* WorkoutTimerEngineTests.swift */; };
 		2E4E878EC75E3C024EAC162B /* RoundsStepperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25749335D1EA0B6F2DF99973 /* RoundsStepperCard.swift */; };
 		35211677C88BA5C58A15C015 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0D9A4B5220310713E5191 /* SessionStore.swift */; };
 		4C9ED67055998B2F8CEEA528 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207529FF942C68FED7FC2F73 /* SoundManager.swift */; };
@@ -21,12 +23,24 @@
 		ACAF0B9134FBC3F07611E094 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F86ACE235979FAFA518783 /* Theme.swift */; };
 		DDFFE432F5AD79ED59C80449 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C886AD999AF4050A423B3 /* TimerView.swift */; };
 		F0BED64BBC06B50B24442E5F /* WorkoutPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C049B7AF48C00C5650FE54 /* WorkoutPhase.swift */; };
+		F39E43A1689DDEF4FE1AA99F /* WorkoutSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC46E246C708E05D463D325 /* WorkoutSessionTests.swift */; };
 		FB7DBFD74EF42E178EA05FE6 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51BBA09A51BF0FA2EBF53E /* WorkoutSession.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEC0B2FDB013552F05A93EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57FC1F9197F71DEA5D726EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E16F05521A5E68499A374;
+			remoteInfo = HIITTimer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CD52334433DDDD17BAA3D99 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
 		1239FD9DDF300F33F3F2A32F /* DurationStepperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationStepperCard.swift; sourceTree = "<group>"; };
+		136E8A5B305C2495730FE670 /* SessionStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStoreTests.swift; sourceTree = "<group>"; };
 		207529FF942C68FED7FC2F73 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		25749335D1EA0B6F2DF99973 /* RoundsStepperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsStepperCard.swift; sourceTree = "<group>"; };
 		291E8BAA9CEA7E8CBE4F78E4 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
@@ -34,13 +48,16 @@
 		412A557AE20F46F988E7A7BC /* HIITTimer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HIITTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC0D9A4B5220310713E5191 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		66C049B7AF48C00C5650FE54 /* WorkoutPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPhase.swift; sourceTree = "<group>"; };
+		7D562DCCE0E9C19D1B6CD952 /* HIITTimerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HIITTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A4CC898E7B2CBAA4CCBD00 /* WorkoutTimerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerEngine.swift; sourceTree = "<group>"; };
 		89F86ACE235979FAFA518783 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		9A8C886AD999AF4050A423B3 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		9BAF7BF7DCF13C7C24846E23 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B870EEEF2CF3F8C8E4483B21 /* WorkoutTimerEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerEngineTests.swift; sourceTree = "<group>"; };
 		BA51BBA09A51BF0FA2EBF53E /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
 		BEDF464DCEFCB4B13FDBB04D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		C71216A0FEBF59F550B0D849 /* HIITTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITTimerApp.swift; sourceTree = "<group>"; };
+		CEC46E246C708E05D463D325 /* WorkoutSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -48,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				412A557AE20F46F988E7A7BC /* HIITTimer.app */,
+				7D562DCCE0E9C19D1B6CD952 /* HIITTimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				AF370565583BE2AA5FA143D5 /* HIITTimer */,
+				7C5486D4999D7722BA46E8E3 /* HIITTimerTests */,
 				0F79FBEA6BC54937735A93E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +101,16 @@
 				868785EC1BC880891780366A /* Components */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7C5486D4999D7722BA46E8E3 /* HIITTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				136E8A5B305C2495730FE670 /* SessionStoreTests.swift */,
+				CEC46E246C708E05D463D325 /* WorkoutSessionTests.swift */,
+				B870EEEF2CF3F8C8E4483B21 /* WorkoutTimerEngineTests.swift */,
+			);
+			path = HIITTimerTests;
 			sourceTree = "<group>";
 		};
 		82A75F12072979A0E29E4377 /* Theme */ = {
@@ -133,6 +162,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0FE0CC19B0D2823D83D960F9 /* HIITTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDC5CB7F41E25357EEB931E /* Build configuration list for PBXNativeTarget "HIITTimerTests" */;
+			buildPhases = (
+				22CFA9259623F3E98880FFAA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683F8838A82E3BF6B70756BA /* PBXTargetDependency */,
+			);
+			name = HIITTimerTests;
+			packageProductDependencies = (
+			);
+			productName = HIITTimerTests;
+			productReference = 7D562DCCE0E9C19D1B6CD952 /* HIITTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1A3E16F05521A5E68499A374 /* HIITTimer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F50F6F70340BFE65BCD54D5 /* Build configuration list for PBXNativeTarget "HIITTimer" */;
@@ -159,6 +206,9 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					0FE0CC19B0D2823D83D960F9 = {
+						ProvisioningStyle = Automatic;
+					};
 					1A3E16F05521A5E68499A374 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -179,11 +229,22 @@
 			projectRoot = "";
 			targets = (
 				1A3E16F05521A5E68499A374 /* HIITTimer */,
+				0FE0CC19B0D2823D83D960F9 /* HIITTimerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22CFA9259623F3E98880FFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195F48AE02A15519C186B5A6 /* SessionStoreTests.swift in Sources */,
+				F39E43A1689DDEF4FE1AA99F /* WorkoutSessionTests.swift in Sources */,
+				1D2B726D05F57445381A1F20 /* WorkoutTimerEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AF6A01829A075BD38F74769 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +269,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		683F8838A82E3BF6B70756BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E16F05521A5E68499A374 /* HIITTimer */;
+			targetProxy = FAEC0B2FDB013552F05A93EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		3B4B6F40C64AA52B6A038A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -227,6 +296,24 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.floviret.hiittimer;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0AB82333CAF771CAB47C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.floviret.hiittimer.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIITTimer.app/HIITTimer";
 			};
 			name = Debug;
 		};
@@ -353,6 +440,24 @@
 			};
 			name = Release;
 		};
+		CCA9267BC4162C9385B178A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.floviret.hiittimer.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIITTimer.app/HIITTimer";
+			};
+			name = Release;
+		};
 		D052694E81F06D3D9908B0C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +496,15 @@
 			buildConfigurations = (
 				AF233FAE9E2FC78848C6D2E5 /* Debug */,
 				BFE27BBE4FDBBABDAF448C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCDC5CB7F41E25357EEB931E /* Build configuration list for PBXNativeTarget "HIITTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AB82333CAF771CAB47C52F /* Debug */,
+				CCA9267BC4162C9385B178A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

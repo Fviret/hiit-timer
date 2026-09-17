@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build (iOS Simulator)
+  build-and-test:
+    name: Build & Test (iOS Simulator)
     runs-on: macos-latest
 
     steps:
@@ -29,3 +29,21 @@ jobs:
             -configuration Debug \
             CODE_SIGNING_ALLOWED=NO \
             clean build
+
+      - name: Select an available iPhone simulator
+        id: sim
+        run: |
+          NAME=$(xcrun simctl list devices available \
+            | grep -m1 -E '^[[:space:]]+iPhone' \
+            | sed -E 's/^[[:space:]]+(iPhone[^(]+)\(.*/\1/' \
+            | sed -E 's/[[:space:]]+$//')
+          echo "Using simulator: $NAME"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Run unit tests
+        run: |
+          xcodebuild test \
+            -project HIITTimer.xcodeproj \
+            -scheme HIITTimer \
+            -destination "platform=iOS Simulator,name=${{ steps.sim.outputs.name }}" \
+            CODE_SIGNING_ALLOWED=NO

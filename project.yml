@@ -17,7 +17,9 @@ targets:
     type: application
     platform: iOS
     deploymentTarget: "17.0"
-    scheme: {}
+    scheme:
+      testTargets:
+        - HIITTimerTests
     sources:
       - path: HIITTimer/Sources
     resources:
@@ -45,3 +47,16 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         DEVELOPMENT_ASSET_PATHS: ""
+
+  HIITTimerTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: HIITTimerTests
+    dependencies:
+      - target: HIITTimer
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.floviret.hiittimer.tests
+        GENERATE_INFOPLIST_FILE: YES
